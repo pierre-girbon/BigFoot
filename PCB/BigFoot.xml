@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/pierreg/Documents/LifeStyle/Electronics/Projects/BigFoot/PCB/BigFoot.kicad_sch</source>
+    <date>lun. 12 déc. 2022 15:57:01</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BigFoot</title>
+        <company/>
+        <rev>3</rev>
+        <date/>
+        <source>BigFoot.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BankSwitch+1">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0733e8e-770c-4d04-9563-25a5861fe46f</tstamps>
+    </comp>
+    <comp ref="BankSwith-1">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>862bf37f-72fc-49ae-83a0-48565f92050f</tstamps>
+    </comp>
+    <comp ref="ExprPedalJack1">
+      <value>ACJS-IH</value>
+      <footprint>Connectors:Jack_6.35_Horizontal_Amphenol_ACJS-IH</footprint>
+      <datasheet>https://www.amphenolaudio.com/products/14-2/m-series/</datasheet>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>409b9be2-938e-4d56-a4a6-9c1870be23ca</tstamps>
+    </comp>
+    <comp ref="ExprPedalJack2">
+      <value>ACJS-IH</value>
+      <footprint>Connectors:Jack_6.35_Horizontal_Amphenol_ACJS-IH</footprint>
+      <datasheet>https://www.amphenolaudio.com/products/14-2/m-series/</datasheet>
+      <libsource lib="Connector" part="AudioJack3" description="Audio Jack, 3 Poles (Stereo / TRS)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c0832d8-73e6-46e4-90ce-2cf763543178</tstamps>
+    </comp>
+    <comp ref="FootSwitch0">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d600da10-d040-4cb7-935b-c76884ba3ee7</tstamps>
+    </comp>
+    <comp ref="FootSwitch1">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25fa7183-e586-48d6-8136-3633197f4f71</tstamps>
+    </comp>
+    <comp ref="FootSwitch2">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a27f7769-d354-43bc-b5f5-81d74feb5138</tstamps>
+    </comp>
+    <comp ref="FootSwitch3">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>918f3cce-4943-401f-8bcb-571b947c8d82</tstamps>
+    </comp>
+    <comp ref="FootSwitch4">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e68e832c-87e2-4895-a3fb-8b3ffa588ebd</tstamps>
+    </comp>
+    <comp ref="FootSwitch5">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3bc7d37-ea8d-4e95-806e-9d7e87d98595</tstamps>
+    </comp>
+    <comp ref="FootSwitch6">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc6d34d5-5d09-4379-8664-f29e788359eb</tstamps>
+    </comp>
+    <comp ref="FootSwitch7">
+      <value>FS5700SPMT2B2M1QEH</value>
+      <footprint>Switch:Switch_Foot_SPDT_Momentary_Eswitch_FS5700SPMT2B2M1QEH</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/226/FS5700.pdf</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3eec00a7-ff4a-4e67-b344-b8815e20a5d4</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9b97ef7-d26c-4548-a4d5-f1beb3a021d5</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e20a2df-6b3a-4218-9550-c2004b70dab3</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f59f68b9-9c63-40a9-8eea-ec80ce626908</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a6ee8e6-41b6-4f8e-94a7-01179ac68caa</tstamps>
+    </comp>
+    <comp ref="LedSW0">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10e4e2bc-7922-4b3f-bbe4-32f3183af8f0</tstamps>
+    </comp>
+    <comp ref="LedSW1">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>871c7565-8a99-441b-b430-5ac746f567b1</tstamps>
+    </comp>
+    <comp ref="LedSW2">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd009c18-498b-44ef-855f-b095aea46a53</tstamps>
+    </comp>
+    <comp ref="LedSW3">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e40cb9ee-89d6-4ace-a136-8c06fba6a421</tstamps>
+    </comp>
+    <comp ref="LedSW4">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2948fe2-c5b5-4d3a-bfb5-b0452fc22042</tstamps>
+    </comp>
+    <comp ref="LedSW5">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>913168f9-0647-41c3-ba5f-082d33837775</tstamps>
+    </comp>
+    <comp ref="LedSW6">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd71778b-0601-4561-b015-ea950a10e41c</tstamps>
+    </comp>
+    <comp ref="LedSW7">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88bd7448-cc3f-442c-9d44-7de70a1bf9f1</tstamps>
+    </comp>
+    <comp ref="MidiOut1">
+      <value>KCDX-5S-S2</value>
+      <footprint>Connectors:Circular_DIN_5P_KCDX-5S-S2</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/222/KCDX-334811.pdf</datasheet>
+      <libsource lib="Connector" part="DIN-5_180degree" description="5-pin DIN connector (5-pin DIN-5 stereo)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8df06613-c199-4d00-b165-9f700c03baa6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3d521e4-7985-4a27-88f3-0d75637ffd77</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51636bda-af7d-408c-97ce-50a5db255c78</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abbb838e-4819-40b9-a448-efac6b14a798</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>315bca51-7092-45d6-a4e7-fe40170f1286</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3f0a616-b017-4c0d-a1aa-badcd12563ed</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db7a3899-e17f-44bc-95db-de91b6491ae0</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98d7fafe-30c5-4477-9f4a-cd8007897e76</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>282286b4-852a-4790-9b6c-d884895774d4</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8de513b2-3eaa-4920-84ee-5ab8f4037e56</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60eccb99-8543-45e6-9c21-eeda2bcda8dd</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>47</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0efe815-7580-485c-8a8d-d64900ed9ad2</tstamps>
+    </comp>
+    <comp ref="StateLED1">
+      <value>TLHR4400-AS12Z</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/tlhg440-1766941.pdf</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6c0a753-dcf1-4fbd-bb11-8390a38cf61c</tstamps>
+    </comp>
+    <comp ref="TRS/RTS_Switch1">
+      <value>LSSA22L-V</value>
+      <footprint>Switch:Switch_slide_2PDT_LSSA22L-V</footprint>
+      <libsource lib="Switch" part="SW_Push_DPDT" description="Momentary Switch, dual pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19d76c61-b91b-42dd-85f2-4479476102b2</tstamps>
+    </comp>
+    <comp ref="TRS/RTS_Switch2">
+      <value>LSSA22L-V</value>
+      <footprint>Switch:Switch_slide_2PDT_LSSA22L-V</footprint>
+      <libsource lib="Switch" part="SW_Push_DPDT" description="Momentary Switch, dual pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2176c92f-05d3-4568-9802-7bab8de37f3c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>74HCT4051</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf</datasheet>
+      <libsource lib="74xx" part="74HC4051" description="8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9dd6e99-7105-4862-9198-6a5f9eec04dc</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>74HCT4051</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf</datasheet>
+      <libsource lib="74xx" part="74HC4051" description="8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bdd3b87-515c-43ab-995f-a7ac7560a708</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Teensy-LC</value>
+      <footprint>teensy:Teensy_LC</footprint>
+      <libsource lib="teensy" part="Teensy-LC" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BigFoot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc0746e8-b42b-47c9-9ebf-64df3bda0461</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC4051">
+      <description>8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC4051</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A4" type="passive"/>
+        <pin num="2" name="A6" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="A7" type="passive"/>
+        <pin num="5" name="A5" type="passive"/>
+        <pin num="6" name="~{E}" type="input"/>
+        <pin num="7" name="VEE" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="S2" type="input"/>
+        <pin num="10" name="S1" type="input"/>
+        <pin num="11" name="S0" type="input"/>
+        <pin num="12" name="A3" type="passive"/>
+        <pin num="13" name="A0" type="passive"/>
+        <pin num="14" name="A1" type="passive"/>
+        <pin num="15" name="A2" type="passive"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AudioJack3">
+      <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="R" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DIN-5_180degree">
+      <description>5-pin DIN connector (5-pin DIN-5 stereo)</description>
+      <docs>http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</docs>
+      <footprints>
+        <fp>DIN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIN-5_180degree</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_DPDT">
+      <description>Momentary Switch, dual pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_DPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="teensy" part="Teensy-LC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Teensy-LC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="0_RX1_MOSI1_Touch" type="bidirectional"/>
+        <pin num="3" name="1_TX1_MISO1_Touch" type="bidirectional"/>
+        <pin num="4" name="2" type="bidirectional"/>
+        <pin num="5" name="3_RX1_PWM_Touch" type="bidirectional"/>
+        <pin num="6" name="4_TX1_PWM_Touch" type="bidirectional"/>
+        <pin num="7" name="5_TX1_MISO1" type="bidirectional"/>
+        <pin num="8" name="6_RX3_CS1_PWM" type="bidirectional"/>
+        <pin num="9" name="7_RX3_MOSI0" type="bidirectional"/>
+        <pin num="10" name="8_TX3_MISO0" type="bidirectional"/>
+        <pin num="11" name="9_RX2_PWM" type="bidirectional"/>
+        <pin num="12" name="10_TX2_CS0_PWM" type="bidirectional"/>
+        <pin num="13" name="11_MOSI0" type="bidirectional"/>
+        <pin num="14" name="12_MISO0" type="bidirectional"/>
+        <pin num="15" name="17_Vin" type="output"/>
+        <pin num="16" name="3.3V" type="power_in"/>
+        <pin num="17" name="GND" type="power_in"/>
+        <pin num="18" name="Program" type="input"/>
+        <pin num="19" name="26_A12/DAC" type="bidirectional"/>
+        <pin num="20" name="13_LED_SCK0" type="bidirectional"/>
+        <pin num="21" name="14_A0_SCK0" type="bidirectional"/>
+        <pin num="22" name="15_A1_Touch" type="bidirectional"/>
+        <pin num="23" name="16_A2_SCL0_PWM_Touch" type="bidirectional"/>
+        <pin num="24" name="17_A3_SDA0_PWM_Touch" type="bidirectional"/>
+        <pin num="25" name="18_A4_SDA0_Touch" type="bidirectional"/>
+        <pin num="26" name="19_A5_SCL0_Touch" type="bidirectional"/>
+        <pin num="27" name="20_A6_SCK1_PWM_TX3" type="bidirectional"/>
+        <pin num="28" name="21_A7_MOSI1_RX1" type="bidirectional"/>
+        <pin num="29" name="22_A8_SCL1_PWM_Touch" type="bidirectional"/>
+        <pin num="30" name="23_A9_SDA1_PWM_Touch" type="bidirectional"/>
+        <pin num="31" name="3.3V" type="power_out"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="33" name="Vin" type="power_in"/>
+        <pin num="34" name="VUSB" type="power_in"/>
+        <pin num="35" name="AREF" type="input"/>
+        <pin num="36" name="24_A10" type="bidirectional"/>
+        <pin num="37" name="25_A11" type="bidirectional"/>
+        <pin num="39" name="D+" type="bidirectional"/>
+        <pin num="40" name="D-" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="teensy">
+      <uri>/home/pierreg/.local/share/kicad/6.0/symbols/teensy_library/teensy.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="TRS/RTS_Switch1" pin="5" pinfunction="B" pintype="passive"/>
+      <node ref="TRS/RTS_Switch2" pin="5" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="31" pinfunction="3.3V" pintype="power_out"/>
+    </net>
+    <net code="2" name="Bank+">
+      <node ref="BankSwitch+1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="7_RX3_MOSI0" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="Bank-">
+      <node ref="BankSwith-1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="8_TX3_MISO0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="ExprPedal1">
+      <node ref="TRS/RTS_Switch1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="14_A0_SCK0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="ExprPedal2">
+      <node ref="TRS/RTS_Switch2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="15_A1_Touch" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="FootSwitches">
+      <node ref="U1" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="5_TX1_MISO1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="BankSwitch+1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="BankSwith-1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="ExprPedalJack1" pin="S" pintype="passive"/>
+      <node ref="ExprPedalJack2" pin="S" pintype="passive"/>
+      <node ref="FootSwitch0" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="FootSwitch1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="FootSwitch2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="FootSwitch3" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="FootSwitch4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="FootSwitch5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="FootSwitch6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="FootSwitch7" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="LedSW0" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LedSW1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LedSW2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LedSW3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LedSW4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LedSW5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LedSW6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="LedSW7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="MidiOut1" pin="2" pintype="passive"/>
+      <node ref="StateLED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="~{E}" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="VEE" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="~{E}" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="VEE" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="32" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="LEDs">
+      <node ref="U2" pin="3" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="6_RX3_CS1_PWM" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="MidiOut">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="1_TX1_MISO1_Touch" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(ExprPedalJack1-PadR)">
+      <node ref="ExprPedalJack1" pin="R" pintype="passive"/>
+      <node ref="TRS/RTS_Switch1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="TRS/RTS_Switch1" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(ExprPedalJack1-PadT)">
+      <node ref="ExprPedalJack1" pin="T" pintype="passive"/>
+      <node ref="TRS/RTS_Switch1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TRS/RTS_Switch1" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(ExprPedalJack2-PadR)">
+      <node ref="ExprPedalJack2" pin="R" pintype="passive"/>
+      <node ref="TRS/RTS_Switch2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="TRS/RTS_Switch2" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(ExprPedalJack2-PadT)">
+      <node ref="ExprPedalJack2" pin="T" pintype="passive"/>
+      <node ref="TRS/RTS_Switch2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="TRS/RTS_Switch2" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(FootSwitch0-Pad2)">
+      <node ref="FootSwitch0" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="A0" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(FootSwitch1-Pad2)">
+      <node ref="FootSwitch1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(FootSwitch2-Pad2)">
+      <node ref="FootSwitch2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(FootSwitch3-Pad2)">
+      <node ref="FootSwitch3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="A3" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(FootSwitch4-Pad2)">
+      <node ref="FootSwitch4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A4" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(FootSwitch5-Pad2)">
+      <node ref="FootSwitch5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A5" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(FootSwitch6-Pad2)">
+      <node ref="FootSwitch6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A6" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(FootSwitch7-Pad2)">
+      <node ref="FootSwitch7" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A7" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(LedSW0-Pad2)">
+      <node ref="LedSW0" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(LedSW1-Pad2)">
+      <node ref="LedSW1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(LedSW2-Pad2)">
+      <node ref="LedSW2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(LedSW3-Pad2)">
+      <node ref="LedSW3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(LedSW4-Pad2)">
+      <node ref="LedSW4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(LedSW5-Pad2)">
+      <node ref="LedSW5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(LedSW6-Pad2)">
+      <node ref="LedSW6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(LedSW7-Pad2)">
+      <node ref="LedSW7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(MidiOut1-Pad4)">
+      <node ref="MidiOut1" pin="4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(MidiOut1-Pad5)">
+      <node ref="MidiOut1" pin="5" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="A0" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="A4" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="A6" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="A3" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="A5" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="A7" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="StateLED1" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="13_LED_SCK0" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="S0">
+      <node ref="U1" pin="11" pinfunction="S0" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="S0" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="S1">
+      <node ref="U1" pin="10" pinfunction="S1" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="S1" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="3_RX1_PWM_Touch" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="S2">
+      <node ref="U1" pin="9" pinfunction="S2" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="S2" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="4_TX1_PWM_Touch" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(BankSwitch+1-Pad1)">
+      <node ref="BankSwitch+1" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(BankSwith-1-Pad1)">
+      <node ref="BankSwith-1" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(FootSwitch0-Pad1)">
+      <node ref="FootSwitch0" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(FootSwitch1-Pad1)">
+      <node ref="FootSwitch1" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(FootSwitch2-Pad1)">
+      <node ref="FootSwitch2" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(FootSwitch3-Pad1)">
+      <node ref="FootSwitch3" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(FootSwitch4-Pad1)">
+      <node ref="FootSwitch4" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(FootSwitch5-Pad1)">
+      <node ref="FootSwitch5" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(FootSwitch6-Pad1)">
+      <node ref="FootSwitch6" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(FootSwitch7-Pad1)">
+      <node ref="FootSwitch7" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(MidiOut1-Pad1)">
+      <node ref="MidiOut1" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(MidiOut1-Pad3)">
+      <node ref="MidiOut1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="0_RX1_MOSI1_Touch" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="9_RX2_PWM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3-Pad12)">
+      <node ref="U3" pin="12" pinfunction="10_TX2_CS0_PWM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U3-Pad13)">
+      <node ref="U3" pin="13" pinfunction="11_MOSI0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U3-Pad14)">
+      <node ref="U3" pin="14" pinfunction="12_MISO0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U3-Pad15)">
+      <node ref="U3" pin="15" pinfunction="17_Vin" pintype="output+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U3-Pad16)">
+      <node ref="U3" pin="16" pinfunction="3.3V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U3-Pad17)">
+      <node ref="U3" pin="17" pinfunction="GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U3-Pad18)">
+      <node ref="U3" pin="18" pinfunction="Program" pintype="input+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3-Pad19)">
+      <node ref="U3" pin="19" pinfunction="26_A12/DAC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-Pad23)">
+      <node ref="U3" pin="23" pinfunction="16_A2_SCL0_PWM_Touch" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U3-Pad24)">
+      <node ref="U3" pin="24" pinfunction="17_A3_SDA0_PWM_Touch" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U3-Pad25)">
+      <node ref="U3" pin="25" pinfunction="18_A4_SDA0_Touch" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U3-Pad26)">
+      <node ref="U3" pin="26" pinfunction="19_A5_SCL0_Touch" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U3-Pad27)">
+      <node ref="U3" pin="27" pinfunction="20_A6_SCK1_PWM_TX3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U3-Pad28)">
+      <node ref="U3" pin="28" pinfunction="21_A7_MOSI1_RX1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U3-Pad29)">
+      <node ref="U3" pin="29" pinfunction="22_A8_SCL1_PWM_Touch" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U3-Pad30)">
+      <node ref="U3" pin="30" pinfunction="23_A9_SDA1_PWM_Touch" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U3-Pad33)">
+      <node ref="U3" pin="33" pinfunction="Vin" pintype="power_in+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U3-Pad34)">
+      <node ref="U3" pin="34" pinfunction="VUSB" pintype="power_in+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U3-Pad35)">
+      <node ref="U3" pin="35" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U3-Pad36)">
+      <node ref="U3" pin="36" pinfunction="24_A10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-Pad37)">
+      <node ref="U3" pin="37" pinfunction="25_A11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3-Pad39)">
+      <node ref="U3" pin="39" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U3-Pad40)">
+      <node ref="U3" pin="40" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
