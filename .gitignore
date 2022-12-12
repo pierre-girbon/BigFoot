@@ -1,3 +1,6 @@
 PCB/BigFoot-backups/
 PCB/BigFoot-backups/*
 fp-info-cache
+*.FCStd1
+Enclosure/BigFoot-Enclosure/BigFoot-Enclosure-backups
+Enclosure/BigFoot-Enclosure/BigFoot-Enclosure-backups/*
