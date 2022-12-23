@@ -14,15 +14,19 @@ BidirectionalMIDI_PipeFactory<2> pipes;
 CD74HC4051 switchMux {5, {2, 3, 4}};
 
 // Footswitches initialization
-PCButton footSwitches [] {
-	{switchMux.pin(0), {0, CHANNEL_16} },
-	{switchMux.pin(1), {1, CHANNEL_16} },
-	{switchMux.pin(2), {2, CHANNEL_16} },
-	{switchMux.pin(3), {3, CHANNEL_16} },
-	{switchMux.pin(4), {4, CHANNEL_16} },
-	{switchMux.pin(5), {5, CHANNEL_16} },
-	{switchMux.pin(6), {6, CHANNEL_16} },
-	{switchMux.pin(7), {7, CHANNEL_16} },
+Bank<4> preset(8);
+
+IncrementDecrementSelector<4> selector {preset, {7, 8}, Wrap::Wrap};
+
+Bankable::PCButton PCChange1 [] {
+	{ {preset, BankType::CHANGE_ADDRESS}, switchMux.pin(0), {0, CHANNEL_16} },
+	{ {preset, BankType::CHANGE_ADDRESS}, switchMux.pin(1), {1, CHANNEL_16} },
+	{ {preset, BankType::CHANGE_ADDRESS}, switchMux.pin(2), {2, CHANNEL_16} },
+	{ {preset, BankType::CHANGE_ADDRESS}, switchMux.pin(3), {3, CHANNEL_16} },
+	{ {preset, BankType::CHANGE_ADDRESS}, switchMux.pin(4), {4, CHANNEL_16} },
+	{ {preset, BankType::CHANGE_ADDRESS}, switchMux.pin(5), {5, CHANNEL_16} },
+	{ {preset, BankType::CHANGE_ADDRESS}, switchMux.pin(6), {6, CHANNEL_16} },
+	{ {preset, BankType::CHANGE_ADDRESS}, switchMux.pin(7), {7, CHANNEL_16} },
 };
 
 //Expression Pedals init
@@ -31,10 +35,15 @@ CCPotentiometer expr1 {
 };
 
 void setup() {
+	// Led Builtin setup
 	pinMode(LEDBUILTIN, OUTPUT);
 	digitalWrite(LEDBUILTIN, HIGH);
 	delay(800);
 	digitalWrite(LEDBUILTIN, LOW);
+
+	// Serial monitor Setup
+	Serial.begin(9600);
+	Serial.print("Welcome to BigFoot");
 
 	// Control Surface setup
 	Control_Surface | pipes | usbMidi;
