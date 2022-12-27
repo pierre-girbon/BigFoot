@@ -18,11 +18,22 @@ Features
 Presets Setup
 -------------
 Preset must be defined into a '.h' file in the Firmware/include folder, then included into Firmware/src/main.cpp file (see RolandMC707.h file as example) and compiled.
+
 See [Control Surface](https://github.com/tttapa/Control-Surface) library for possible presets.
 
 Building
 --------
-![Inside](./Assets/20221221_170134.jpg)
+
+Folder structure:
+
+- PCB: KiCAD schematics and PCB
+    - Gerber: gerger files to order PCB production
+- Enclosure: Enclosure files
+- Firware: source code
+
+Compiling source code requires [platformio](https://docs.platformio.org/en/latest/)
+
+![Inside](./Assets/20221221_193255.jpg)
 
 Licence
 -------
