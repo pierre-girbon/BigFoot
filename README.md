@@ -10,7 +10,7 @@ Features
 
     1. 8 assignable footswitches
     2. Bank selection
-    3. 2 expression pedals connectors
+    3. 2 expression pedals connectors with TRS/RTS switch
     4. USB Midi input and output
     5. Midi DIN output
     6. (TODO) LED feedback
@@ -28,7 +28,8 @@ Folder structure:
 
 - PCB: KiCAD schematics and PCB
     - Gerber: gerger files to order PCB production
-- Enclosure: Enclosure files
+    - [Mouser part list](https://www.mouser.fr/ProjectManager/ProjectDetail.aspx?AccessID=45c124cc8a)
+- Enclosure: KiCAD files for the top panel
 - Firware: source code
 
 Compiling source code requires [platformio](https://docs.platformio.org/en/latest/)
