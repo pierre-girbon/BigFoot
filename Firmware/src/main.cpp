@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Control_Surface.h>
 
-#include "RolandMC707.h"
+#include "KorgD1.h"
 
 #define LEDBUILTIN	13
 
